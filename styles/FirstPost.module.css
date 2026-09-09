@@ -1,0 +1,21 @@
+.post {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  border-top: 6px solid #6b21a8;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.title {
+  color: #6b21a8;
+  font-size: 42px;
+}
+
+.backLink {
+  color: #2563eb;
+  font-weight: bold;
+}
+
+.backLink:hover {
+  color: #9333ea;
+}
