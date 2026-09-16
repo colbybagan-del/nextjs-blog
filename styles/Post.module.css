@@ -1,0 +1,49 @@
+.post {
+  background-color: #ffffff;
+  border: 2px solid #ddd6fe;
+  border-radius: 18px;
+  padding: 2.5rem;
+  margin-top: 2rem;
+  box-shadow: 0 10px 25px rgba(76, 29, 149, 0.12);
+}
+
+.title {
+  color: #5b21b6;
+  margin-bottom: 0.5rem;
+}
+
+.date {
+  color: #6b7280;
+  margin-bottom: 3rem;
+  font-style: italic;
+}
+
+.content {
+  color: #27272a;
+  line-height: 1.8;
+}
+
+.content h1 {
+  color: #4c1d95;
+}
+
+.content h2 {
+  color: #6d28d9;
+  border-bottom: 2px solid #ddd6fe;
+  padding-bottom: 0.4rem;
+}
+
+.content h3 {
+  color: #7c3aed;
+}
+
+.content a {
+  color: #7c3aed;
+  text-decoration: underline;
+}
+
+.content ul {
+  background-color: #faf5ff;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+}
