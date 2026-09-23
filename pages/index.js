@@ -16,12 +16,13 @@ import Layout, { siteTitle } from '../components/layout';
 // Import reusable CSS utility classes.
 import utilStyles from '../styles/utils.module.css';
 
-// Import the function that retrieves and sorts the Markdown blog posts.
-import { getSortedPostsData } from '../lib/posts';
+// Import the function that retrieves and sorts the JSON blog posts.
+import { getSortedPostsData } from '../lib/posts-json';
+
 
 // Generate the blog post data at build time.
 export async function getStaticProps() {
-  // Retrieve all Markdown posts from the posts directory.
+  // Retrieve all posts from the JSON data file.
   const allPostsData = getSortedPostsData();
 
   // Return the blog post data as properties for the Home component.

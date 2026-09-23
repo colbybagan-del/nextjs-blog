@@ -1,0 +1,23 @@
+[
+  {
+    "id": "cooking",
+    "title": "Cooking",
+    "date": "2026-09-18",
+    "author": "Colby",
+    "contentHtml": "<p>Cooking is one of my favorite hobbies. I enjoy trying new recipes and making meals for myself and my family.</p><p>There is something rewarding about taking simple ingredients and turning them into a meal.</p>"
+  },
+  {
+    "id": "hiking",
+    "title": "Hiking",
+    "date": "2026-09-19",
+    "author": "Colby",
+    "contentHtml": "<p>Hiking is another activity that I really enjoy. I like spending time outside and exploring different trails.</p><p>Hiking is a great way to exercise while getting some fresh air.</p>"
+  },
+  {
+    "id": "pets",
+    "title": "Pets",
+    "date": "2026-09-20",
+    "author": "Colby",
+    "contentHtml": "<p>Pets can bring a lot of happiness to a home. I enjoy spending time with animals and learning about their personalities.</p><p>Taking care of a pet is also a responsibility, but there companionship makes it worth it.</p>"
+  }
+]

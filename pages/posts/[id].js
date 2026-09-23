@@ -13,12 +13,12 @@ import Layout from '../../components/layout';
 // Import the existing custom CSS module for individual blog posts.
 import styles from '../../styles/Post.module.css';
 
-// Import functions that retrieve post IDs and post data from the Markdown files.
-import { getAllPostIds, getPostData } from '../../lib/posts';
+// Import functions that retrieve post IDs and post data from the JSON file.
+import { getAllPostIds, getPostData } from '../../lib/posts-json';
 
 // Generate the paths for all blog posts at build time.
 export async function getStaticPaths() {
-  // Retrieve the IDs of all Markdown files in the top-level posts directory.
+  // Retrieve the IDs of all posts in the JSON data file.
   const paths = getAllPostIds();
 
   // Return the available paths to Next.js.
@@ -33,7 +33,7 @@ export async function getStaticPaths() {
 
 // Retrieve the complete data for the requested blog post.
 export async function getStaticProps({ params }) {
-  // Retrieve the Markdown content and metadata for the requested post ID.
+  // Retrieve the content and metadata for the requested post ID.
   const postData = await getPostData(params.id);
 
   // Return the post data so it can be passed to the Post component.
