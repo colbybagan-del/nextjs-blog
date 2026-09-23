@@ -70,7 +70,7 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #6b21a8; /*  hover text color. */
+  color: #3fbe5b; /*  hover text color. */
   border-color: #6b21a8; /*  hover border. */
   box-shadow: 0 4px 12px rgba(107, 33, 168, 0.2); /* hover shadow. */
 }
@@ -98,7 +98,7 @@
 }
 
 .blogSection {
-  background-color: #ffffff;
+  background-color: #d8bdbd;
   border: 2px solid #ddd6fe;
   border-radius: 18px;
   padding: 2rem;
@@ -109,7 +109,7 @@
 .postItem {
   background-color: #faf5ff;
   border-left: 5px solid #8b5cf6;
-  border-radius: 10px;
+  border-radius: 12px;
   padding: 1rem;
   margin-bottom: 1rem;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
